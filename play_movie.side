@@ -1,0 +1,161 @@
+{
+  "id": "3c5c1f31-41b7-46db-8cc3-7ad323adc014",
+  "version": "2.0",
+  "name": "play_movie",
+  "url": "https://www.imdb.com/",
+  "tests": [{
+    "id": "287e48fa-1197-4bb9-8a7b-dcfb1737ef94",
+    "name": "peli_vengadores",
+    "commands": [{
+      "id": "af81ecbb-dd0b-496b-a07b-0c554e77acf8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65b81f3f-0cc7-40b6-abf6-179f1feddf29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ce6d139-ace0-4270-8afb-b83e244133a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=navTitleMenu",
+      "targets": [
+        ["id=navTitleMenu", "id"],
+        ["css=#navTitleMenu", "css:finder"],
+        ["xpath=//li[@id='navTitleMenu']", "xpath:attributes"],
+        ["xpath=//ul[@id='consumer_main_nav']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1ace0b-1436-4a2d-9524-d5fe0fa90a06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Showtimes & Tickets",
+      "targets": [
+        ["linkText=Showtimes & Tickets", "linkText"],
+        ["css=#navMenu1 > .subNavListContainer:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Showtimes & Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navMenu1']/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/showtimes/?ref_=nv_mv_sh')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Showtimes & Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6a26f6-3705-4af9-8dcc-335d3cc532b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title-photo-strip > span:nth-child(4) > a",
+      "targets": [
+        ["css=.title-photo-strip > span:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='sidebar']/div[5]/div/span[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/showtimes/title/tt4154796?ref_=sh_mny_tt')]", "xpath:href"],
+        ["xpath=//div/span[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c8f64d6-cf97-40cf-bd8d-dfddaa2793ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.poster",
+      "targets": [
+        ["css=.poster", "css:finder"],
+        ["xpath=//img[@alt='Vengadores: Endgame (2019) Poster']", "xpath:img"],
+        ["xpath=//td[@id='img_primary']/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//td/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7f435d-9938-4ec3-b9d9-7d02532b32df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slate_button",
+      "targets": [
+        ["css=.slate_button", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/video/imdb/vi2163260441?playlistId=tt4154796&ref_=tt_ov_vi')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad595ae-0eae-4ecd-b857-8cafe7d08fb9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0452cc5a-0b1d-4fd5-8c5a-501c67dc311c",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.jw-slider-time > .jw-slider-container",
+      "targets": [
+        ["css=.jw-slider-time > .jw-slider-container", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de9597c-e597-42f5-a0c5-8ac591026fb1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.jw-slider-time",
+      "targets": [
+        ["css=.jw-slider-time", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "956ee7ad-2af8-4094-a90f-95232ab1c80d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-slider-time",
+      "targets": [
+        ["css=.jw-slider-time", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d5e0c42-9703-4c21-b2fd-36630a67cea0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-icon-playback",
+      "targets": [
+        ["css=.jw-icon-playback", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91126654-0d76-411c-913b-43ef38acc420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-icon-playback",
+      "targets": [
+        ["css=.jw-icon-playback", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d42824d-9586-4adf-87b5-841887165d24",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["287e48fa-1197-4bb9-8a7b-dcfb1737ef94"]
+  }],
+  "urls": ["https://www.imdb.com/"],
+  "plugins": []
+}
